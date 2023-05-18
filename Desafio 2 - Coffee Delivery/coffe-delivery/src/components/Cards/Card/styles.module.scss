@@ -1,0 +1,38 @@
+.container {
+  @apply bg-base-card w-max max-w-[16rem] rounded-lg rounded-tr-[48px] rounded-bl-[48px];
+  @apply flex items-center flex-col p-5 mt-5;
+
+  img {
+    @apply w-24 h-24 mb-3 -mt-10;
+  }
+
+  .coffeeType {
+    @apply text-[0.625rem] uppercase bg-yellow-light px-2 py-1 rounded-full text-yellow-dark mb-4;
+  }
+
+  .title {
+    @apply text-xl text-base-subtitle mb-2;
+    font-family: "Baloo 2", sans-serif;
+  }
+
+  .description {
+    @apply text-sm text-base-label text-center mb-8;
+  }
+
+  .value {
+    @apply text-2xl text-base-text;
+    font-family: "Baloo 2", sans-serif;
+
+    span {
+      @apply text-sm text-base-text font-primary;
+    }
+  }
+
+  .footer {
+    @apply flex items-center gap-6;
+
+    .shop {
+      @apply flex items-center gap-2;
+    }
+  }
+}

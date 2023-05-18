@@ -1,0 +1,14 @@
+.button {
+  @apply p-2 rounded-lg;
+  @apply text-base-text text-xs;
+  @apply flex gap-1 items-center;
+
+  svg {
+    @apply text-purple-default;
+  }
+
+  @apply bg-base-button duration-300 #{!important};
+  &:hover {
+    @apply bg-base-hover #{!important};
+  }
+}

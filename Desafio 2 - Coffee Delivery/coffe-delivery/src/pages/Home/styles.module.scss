@@ -1,0 +1,14 @@
+.container {
+  @apply max-w-6xl mx-auto xl:px-0 px-10 py-8;
+}
+
+.coffees {
+  .coffeesTitle {
+    @apply text-base-title text-3xl mb-12;
+    font-family: "Baloo 2", sans-serif;
+  }
+
+  .coffeesContainer {
+    @apply grid grid-cols-3 xl:grid-cols-4 gap-4;
+  }
+}

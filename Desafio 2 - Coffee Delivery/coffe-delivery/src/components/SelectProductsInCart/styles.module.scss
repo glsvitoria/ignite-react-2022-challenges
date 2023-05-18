@@ -1,0 +1,16 @@
+.container {
+  @apply bg-base-button w-max gap-1 p-2 rounded-lg;
+  @apply flex justify-between;
+
+  .input {
+    @apply bg-inherit w-6 text-center text-base-title;
+  }
+
+  .operations {
+    @apply text-purple-default duration-150;
+
+    &:hover {
+      @apply text-purple-dark;
+    }
+  }
+}

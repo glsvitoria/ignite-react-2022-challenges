@@ -1,0 +1,20 @@
+.container {
+  @apply grid grid-cols-3 w-full gap-3;
+}
+
+.btnContainer {
+  @apply uppercase px-2 py-4 flex flex-row items-center justify-center duration-300 rounded-lg gap-3;
+  @apply bg-base-button w-full text-base-text text-xs border;
+
+  svg {
+    @apply text-purple-default;
+  }
+
+  &:hover {
+    @apply bg-base-hover;
+  }
+
+  &.selected {
+    @apply border border-purple-default bg-purple-light;
+  }
+}

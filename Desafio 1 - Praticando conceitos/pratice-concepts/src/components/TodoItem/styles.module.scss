@@ -1,0 +1,25 @@
+.itemContainer {
+  @apply flex items-center gap-4 bg-gray-500 w-full;
+  @apply border border-gray-400 p-4 rounded-lg;
+}
+
+.wasChecked {
+  @apply flex items-center p-1 bg-purple-dark;
+  @apply rounded-full cursor-pointer;
+}
+
+.wasntChecked {
+  @apply p-1 w-6 h-6 border-2 border-blue rounded-full cursor-pointer;
+}
+
+.textChecked {
+  @apply line-through w-full;
+}
+
+.textNoChecked {
+  @apply w-full;
+}
+
+.trash {
+  @apply cursor-pointer;
+}

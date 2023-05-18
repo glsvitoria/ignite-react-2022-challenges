@@ -1,0 +1,37 @@
+.blur {
+  background-image: url("../../../../assets/bg-about.png");
+  @apply absolute w-full h-full blur-[80px] -mt-24 -z-10;
+}
+
+.about {
+  @apply flex gap-14 py-24 relative;
+
+  .left {
+    @apply flex flex-col gap-16;
+  }
+
+  .title {
+    h1 {
+      @apply text-5xl font-extrabold text-base-title mb-4;
+      font-family: "Baloo 2", sans-serif;
+    }
+
+    h2 {
+      .subtitle {
+        @apply text-xl text-base-title;
+      }
+    }
+  }
+
+  ul {
+    @apply grid grid-cols-2 gap-5;
+
+    li {
+      @apply flex items-center gap-3;
+
+      p {
+        @apply text-base-text;
+      }
+    }
+  }
+}

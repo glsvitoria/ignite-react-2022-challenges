@@ -1,0 +1,19 @@
+.container {
+  @apply flex justify-between items-center max-w-6xl mx-auto px-10 py-8 xl:px-0;
+
+  .rightMenu {
+    @apply flex gap-3;
+
+    .location {
+      @apply bg-purple-light text-purple-dark flex items-center gap-1 px-2 py-2 rounded-lg;
+
+      p {
+        @apply text-sm;
+      }
+
+      svg {
+        @apply text-purple-default;
+      }
+    }
+  }
+}

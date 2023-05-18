@@ -1,0 +1,88 @@
+.container {
+  @apply max-w-6xl mx-auto xl:px-0 px-10 py-8;
+  @apply grid grid-cols-7 gap-8;
+
+  .title {
+    @apply text-lg mb-4;
+    font-family: "Baloo 2", sans-serif;
+  }
+
+  .leftContainer {
+    @apply flex flex-col col-span-4;
+  }
+
+  .rightContainer {
+    @apply col-span-3;
+  }
+
+  .paymentContainer {
+    @apply col-span-4;
+  }
+
+  .box {
+    @apply bg-base-card p-10 rounded-lg;
+  }
+}
+
+.form {
+  @apply mb-6;
+  .header {
+    @apply flex gap-2 mb-8 text-base-subtitle;
+
+    svg {
+      @apply text-yellow-dark;
+    }
+
+    p {
+      @apply text-sm;
+    }
+  }
+
+  .line {
+    @apply flex gap-3;
+
+    .uf {
+      @apply w-1/3;
+    }
+
+    .number {
+      @apply w-1/2;
+    }
+  }
+
+  .form {
+    @apply flex flex-col gap-4;
+  }
+}
+
+.paymentContainer {
+  .header {
+    @apply flex gap-2 mb-8 text-base-subtitle;
+
+    svg {
+      @apply text-purple-default;
+    }
+
+    p {
+      @apply text-sm;
+    }
+  }
+
+  .meansOfPayment {
+    @apply grid grid-cols-3 gap-3 w-full;
+  }
+}
+
+.rightContainer {
+  .finalValue {
+    @apply flex flex-col w-full gap-2 mb-4;
+
+    li {
+      @apply flex items-center justify-between;
+    }
+
+    strong {
+      @apply text-xl;
+    }
+  }
+}

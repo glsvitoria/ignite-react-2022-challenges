@@ -1,0 +1,10 @@
+.button {
+  @apply px-2 py-3 min-w-[132px] w-full rounded-lg;
+  @apply text-white uppercase font-bold text-sm;
+  @apply flex items-center justify-center;
+  @apply bg-yellow-default duration-300 #{!important};
+
+  &:hover {
+    @apply bg-yellow-dark #{!important};
+  }
+}

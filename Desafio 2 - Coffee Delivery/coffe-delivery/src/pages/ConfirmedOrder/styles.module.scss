@@ -1,0 +1,27 @@
+.container {
+  @apply max-w-6xl mx-auto xl:px-0 px-10 py-8;
+  @apply grid grid-cols-2;
+}
+
+.title {
+  @apply text-[32px] leading-snug text-yellow-dark;
+  font-family: "Baloo 2", sans-serif;
+}
+
+.subtitle {
+  @apply text-base-subtitle text-xl;
+}
+
+.boxInfoOrder {
+  @apply border flex flex-col gap-8 p-10 rounded-lg rounded-tr-[36px] rounded-bl-[36px] mt-10;
+  // border-image: linear-gradient(90deg, #DBAC2C, #8047f8) 1;
+  // border-image-slice: 1;
+
+  .itemInfo {
+    @apply flex gap-3 items-center text-base-text;
+  }
+}
+
+.confirmedOrder {
+  @apply flex items-center justify-center;
+}

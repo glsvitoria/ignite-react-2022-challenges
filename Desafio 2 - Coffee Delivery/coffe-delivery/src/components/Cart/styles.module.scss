@@ -1,0 +1,18 @@
+.button {
+  @apply p-2 rounded-lg;
+  @apply text-base-text;
+  @apply flex gap-1 relative;
+
+  svg {
+    @apply text-yellow-dark;
+  }
+
+  @apply bg-yellow-light hover:brightness-90 duration-300 #{!important};
+}
+
+.numberOfProducts {
+  @apply absolute -top-2 -right-1;
+  @apply bg-yellow-dark w-5 h-5 rounded-full text-white;
+  @apply text-xs font-bold;
+  @apply flex items-center justify-center;
+}

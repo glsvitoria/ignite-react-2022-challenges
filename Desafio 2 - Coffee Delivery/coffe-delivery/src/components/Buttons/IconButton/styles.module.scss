@@ -1,0 +1,9 @@
+.button {
+  @apply p-2 rounded-lg;
+  @apply text-white;
+  @apply bg-purple-dark duration-300 #{!important};
+
+  &:hover {
+    @apply bg-purple-default #{!important};
+  }
+}
