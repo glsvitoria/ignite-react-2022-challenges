@@ -14,7 +14,7 @@
 
 Um site para fazer a organização de demandas a se fazer no estilo todo-list, podendo adicionar itens pendendo, marcar eles como concluídos e remover depois
 
--  Site hospedado: [Coffee Delivery](https://coffee-delivery-jade.vercel.app/)
+-  Site hospedado: [Todo List](https://coffee-delivery-jade.vercel.app/)
 -  Repositório com README: [Repositório](https://github.com/glsvitoria/ignite-react-2022-challenges/tree/main/Desafio%201%20-%20Praticando%20conceitos/pratice-concepts)
 
 
