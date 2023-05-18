@@ -10,7 +10,7 @@ import expressoAmericano from "../../assets/coffees/expresso-americano.svg";
 import expressoCremoso from "../../assets/coffees/expresso-cremoso.svg";
 import expressoGelado from "../../assets/coffees/expresso-gelado.svg";
 import expresso from "../../assets/coffees/expresso.svg";
-import havaiano from "../../assets/coffees/havaiano.svg";
+// import havaiano from "../../assets/coffees/havaiano.svg";
 import irlandes from "../../assets/coffees/irlandes.svg";
 import latte from "../../assets/coffees/latte.svg";
 import macchiato from "../../assets/coffees/macchiato.svg";

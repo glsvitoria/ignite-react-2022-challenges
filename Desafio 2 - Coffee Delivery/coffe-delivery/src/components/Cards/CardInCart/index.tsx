@@ -1,6 +1,5 @@
 import { useCallback } from "react";
 
-import { Form } from "@unform/web";
 import styles from "./styles.module.scss";
 import formatNumber from "../../../utils/formatNumber";
 import ButtonSmall from "../../Buttons/ButtonSmall";
